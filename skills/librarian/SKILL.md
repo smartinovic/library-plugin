@@ -18,10 +18,27 @@ saved, and the blind-spot brief. It is built from the live library, so it moves 
 memory of an earlier conversation. If the connector asks to be connected, the reader signs in with
 their passkey; only readers invited to the library can.
 
-## What they may ask
+## "What should I read next?" — answer in this order
 
-- **Rank my next reads** — `get_next_reads` (moods: balanced and the presets it lists) gives the
-  engine's order with a reason per book; defend or challenge the top few with dossier evidence.
+When they ask what to read next (or to rank their queue), call `get_next_reads` and answer in three
+parts, in this order, each labelled:
+
+1. **Your Up next** — `upNext`, the books THEY already chose, in their order. That is their decision,
+   so it comes first; the next book is normally the top of it. Say so plainly. If it's empty, say they
+   haven't planned any.
+2. **What your engine ranks next** — the top five of `queue`, each with its fit score and the engine's
+   reason, as the engine's answer. Show this list even when you disagree with it.
+3. **My view** — only after the two above, and labelled as your opinion: where you agree, where you'd
+   push back, and a book the engine can't see, each tied to named evidence from the dossier.
+
+Never replace their plan or the engine's list with your own picks — you may argue with them, never hide
+them. Discovery of books NOT in their library is a separate request (below); don't mix new books into
+this answer unless they ask.
+
+## What else they may ask
+
+- **Rank my queue in a mood** — `get_next_reads` with a mood (the presets it lists) re-weights the
+  engine's ranking; the same three-part answer applies.
 - **Discover new books** — excellent books NOT already in their library.
 - **More like a book I loved** — books that share its DNA and are as good or better.
 - **Expand a subject** — a ladder from accessible entry points to the canonical deep works.

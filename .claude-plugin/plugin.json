@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Your personal reading library in Claude: a librarian who knows your shelves, a finishing ritual, honest queue triage, film and series picks that never spoil a book you haven't read, and measured taste tuning — all against your own library.",
   "author": { "name": "Stefan Martinovic" },
   "keywords": ["books", "reading", "recommendations", "library"]
