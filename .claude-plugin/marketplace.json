@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "owner": {
+    "name": "Stefan Martinovic"
+  },
+  "metadata": {
+    "description": "A personal reading library in Claude, for readers invited to it."
+  },
+  "plugins": [
+    {
+      "name": "library",
+      "source": "./",
+      "description": "Your personal reading library in Claude — for readers invited to it."
+    }
+  ]
+}

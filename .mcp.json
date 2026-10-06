@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "library": {
+      "type": "http",
+      "url": "https://macbook-pro.tail601c0a.ts.net:8443/mcp"
+    }
+  }
+}
