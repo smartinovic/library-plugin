@@ -2,7 +2,7 @@
 
 Your personal reading library in Claude, for readers invited to it: a librarian who knows your
 shelves, a ritual for finishing a book, honest queue triage, film and series picks that never spoil a
-book you haven't read, and taste tuning measured on your own ratings.
+book you plan to read, and taste tuning measured on your own ratings.
 
 It is one remote connector plus five skills:
 
@@ -11,7 +11,7 @@ It is one remote connector plus five skills:
 | `librarian` | ranks your next reads, discovers books in two lanes (in your wheelhouse · out of the blue), more like a book you loved, a subject ladder |
 | `finish` | records a finished (or rejected) book — rating, date, a one-line verdict, passages — and checks the verdict against your taste |
 | `tbr-triage` | walks your queue, the books that fit you least first, in batches of five |
-| `projectionist` | films and series from your book taste and your screen log — never an adaptation of a book you haven't finished |
+| `projectionist` | films and series from your book taste and your screen log — never an adaptation of a book on your shelf you haven't finished |
 | `taste-tuner` | turns a complaint about your recommendations into one measured change, kept or dropped on the evidence |
 
 This repository holds no data. Your library lives on its own server; the connector reads and changes
